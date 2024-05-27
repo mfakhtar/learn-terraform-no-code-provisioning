@@ -64,7 +64,7 @@ resource "aws_db_parameter_group" "education" {
     value = "1"
   }
 }
-
+/*
 resource "aws_db_instance" "education" {
   identifier             = "${var.db_name}-${random_pet.random.id}"
   instance_class         = "db.t3.micro"
@@ -79,3 +79,4 @@ resource "aws_db_instance" "education" {
   publicly_accessible    = true
   skip_final_snapshot    = true
 }
+*/
